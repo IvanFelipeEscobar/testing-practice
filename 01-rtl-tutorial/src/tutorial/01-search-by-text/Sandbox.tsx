@@ -13,16 +13,17 @@ const Sandbox = () => {
   return (
     <div>
       <h1>RTL examples</h1>
-      <p>you cna search me with regex: 123-444-5678</p>
+      <p>you can search me with regex: 123-444-5678</p>
+
       <button onClick={() => setShowError(!showError)}>click me</button>
 
       {showError && <p>error message</p>}
       <ul>
-        <li>item1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-        <li>item 5</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
       </ul>
       {showMessage && <p>async message</p>}
     </div>
