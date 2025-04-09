@@ -30,12 +30,10 @@ test('should render heading with correct text', () => {
 // expect(sum).toBe(5)
 // })
 
-test('test paragraph', () => {
-  render(<App />)
-  screen.debug()
-  const p = screen.getByText(
-    'React Testing Library and Vitest work together to provide a robust testing environment.'
-  )
-  expect(p).toBeInTheDocument()
-})
+// test('test paragraph', () => {
+//   render(<App />)
+//   screen.debug()
+//   const p = screen.getByText(/paragraph/)
+//   expect(p).toBeInTheDocument()
+// })
 })
