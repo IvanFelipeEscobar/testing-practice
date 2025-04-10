@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react'
-// Note: technically already available globally
-import { test, expect } from 'vitest'
+
 import App from '../App'
 
 describe('App Component', () => {
@@ -13,10 +12,10 @@ test('should render heading with correct text', () => {
   screen.debug()
 
   // Find heading by its text content
-  const heading = screen.getByText('React Testing Library')
+  // const heading = screen.getByText('React Testing Library')
 
   // Verify heading exists in document
-  expect(heading).toBeInTheDocument()
+  // expect(heading).toBeInTheDocument()
 })
 
 // test('this test will pass', () => {

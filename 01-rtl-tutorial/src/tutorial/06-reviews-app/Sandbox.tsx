@@ -27,7 +27,7 @@ const Sandbox = () => {
   }, [reviews])
   return (
     <div>
-      <h2 className="text-2xl">Reviews App</h2>
+      <h1 className="text-2xl">Reviews App</h1>
       <Form addReview={addReview} />
       <Reviews reviews={reviews} deleteReview={deleteReview}/>
     </div>
